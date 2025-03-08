@@ -1,7 +1,6 @@
-function findRectangleArea(length, width) {
-  return length * width;
-}
+let len = 5;
+let wid = 3;
+let area_rectangle = len * wid;
 
-console.log(findRectangleArea(5, 3)); // Output: 15
-
-Mencari diameter, keliling, dan luas lingkaran:
+console.log("Area of Rectangle: ↴");
+console.log(`Length: ${len}, Width: ${wid} → Area = ${area_rectangle}`);
