@@ -1,0 +1,11 @@
+Mencari luas persegi panjang:
+
+Kode: 
+
+function findRectangleArea(length, width) {
+  return length * width;
+}
+
+console.log(findRectangleArea(5, 3)); // Output: 15
+
+Mencari diameter, keliling, dan luas lingkaran:
