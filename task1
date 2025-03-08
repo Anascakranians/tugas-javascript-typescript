@@ -1,7 +1,3 @@
-Mencari luas persegi panjang:
-
-Kode: 
-
 function findRectangleArea(length, width) {
   return length * width;
 }
