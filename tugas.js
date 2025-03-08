@@ -1,4 +1,6 @@
 Mencari luas persegi panjang:
+
+code: 
 function findRectangleArea(length, width) {
   return length * width;
 }
@@ -17,6 +19,8 @@ console.log(findCircleMeasures(5));
 // Output: { diameter: 10, circumference: 31.4159, area: 78.539 }
 
 Mencari sudut segitiga jika diberikan dua sudut:
+code:
+
 function findTriangleAngle(a, b) {
   return 180 - a - b;
 }
@@ -24,6 +28,8 @@ function findTriangleAngle(a, b) {
 console.log(findTriangleAngle(80, 65)); // Output: 35
 
 Menghitung selisih hari antara dua tanggal:
+code:
+
 function getDaysBetweenDates(date1, date2) {
   const oneDay = 24 * 60 * 60 * 1000; // hours * minutes * seconds * milliseconds
   const diffDays = Math.round(Math.abs((new Date(date2) - new Date(date1)) / oneDay));
@@ -33,6 +39,8 @@ function getDaysBetweenDates(date1, date2) {
 console.log(getDaysBetweenDates("2024-03-19", "2024-03-21")); // Output: 2
 
 Mencetak inisial nama dalam huruf besar:
+code:
+
 function printNameInitial(name) {
   const names = name.split(" ");
   let initial = "";
