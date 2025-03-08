@@ -2,7 +2,7 @@
 ![TUGAS 1](https://github.com/user-attachments/assets/810acedd-b5d6-4130-88cc-ef72bfa56490)
 # Learn JavaScript by Doing
 
-This repository contains solutions to JavaScript tasks as part of learning by doing.
+This repository contains solutions to JavaScript tasks.
 
 ## Tasks
 
